@@ -1,10 +1,9 @@
 import configparser
-import combinations
-import requests
 import json
 
-import praw
-from prawcore import NotFound, Forbidden
+import requests
+
+import combinations
 
 conf = configparser.ConfigParser()
 conf.read('praw.ini')
