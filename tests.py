@@ -1,4 +1,6 @@
 import string
+import random
+import json
 
 f2 = open('2.txt', 'r')
 f3 = open('3.txt', 'r')
@@ -270,21 +272,37 @@ files = [f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17,
 
 for f in files:
     lines = f.readlines()
-    print(lines)
+    # print(lines)
     real_lines = []
     for line in lines[:]:
         real_lines += [line[:-1]]
-    print(real_lines)
+    # print(real_lines)
     for sub in real_lines:
         for i in range(len(sub)-1):
             char_now = sub[i]
             char_next = sub[i+1]
             add_val_dict(dico_liens, (dico_node_num_pos[(char_now, i)], dico_node_num_pos[(char_next, (i+1))]))
 
-print(dico_liens)
+# print(dico_liens)
 
-file = open('links.txt', 'w')
+file_source = open('vals_source.txt', 'w')
+file_target = open('vals_target.txt', 'w')
+file_value = open('vals_value.txt', 'w')
+
+print('\n\n\nsource\n\n\n')
 
 for key in dico_liens:
-    print('{"source":' + str(key[0]) + ',"target":' + str(key[1]) + ',"value":' + str(dico_liens[key]) + '},')
-    file.write('{"source":' + str(key[0]) + ',"target":' + str(key[1]) + ',"value":' + str(dico_liens[key]) + '},\n')
+    print('                    ' + str(key[0]) + ',')
+    file_source.write('                    ' + str(key[0]) + ',\n')
+
+print('\n\n\ntarget\n\n\n')
+
+for key in dico_liens:
+    print('                    ' + str(key[1]) + ',')
+    file_target.write('                    ' + str(key[1]) + ',\n')
+
+print('\n\n\nvalue\n\n\n')
+
+for key in dico_liens:
+    print('                    ' + str(dico_liens[key]) + ',')
+    file_value.write('                    ' + str(dico_liens[key]) + ',\n')
