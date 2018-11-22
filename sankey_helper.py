@@ -8,14 +8,18 @@ def count_times_in_list(lnks_list):
     return link_occurence
 
 
-f = open('subs.txt', 'r')
+f = open('subs_ordr.txt', 'r')
 
 subs_list = f.readlines()
+
+print(subs_list)
 
 subs_list_real_name = []
 
 for sub in subs_list:
     subs_list_real_name += [sub[:-1]]
+
+print(subs_list_real_name)
 
 links_list = []
 
@@ -29,7 +33,7 @@ print(links_list)
 
 flinks_list = open('links_list.txt', 'w')
 
-flinks_list.write(str(link_list))
+flinks_list.write(str(links_list))
 
 dico = count_times_in_list(links_list)
 
@@ -38,6 +42,8 @@ fdico = open('dico.txt', 'w')
 print(dico)
 
 fdico.write(str(dico))
+
+
 
 # ('0': 0), ('1': 1), ('2': 2), ('3': 3), ('4': 4), ('5': 5), ('6': 6), ('7': 7), ('8': 8),
 # ('9': 9), ('a': 10), ('b': 11), ('c': 12), ('d': 13), ('e': 14), ('f': 15), ('g': 16), ('h': 17),

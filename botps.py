@@ -33,7 +33,7 @@ print(subs_list_sorted)
 
 fil_out_sorted.writelines(subs_list_sorted_lb)
 
-subs_list_sorted_temp = subs_list_sorted[subs_list_sorted.index('2PartsAnalog')+1:]
+subs_list_sorted_temp = subs_list_sorted[subs_list_sorted.index('actualzombie')+1:]
 
 subs_list_sorted = subs_list_sorted_temp
 
