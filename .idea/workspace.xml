@@ -21,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/bot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1542999861030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1543011274212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bot$sankey.coverage" NAME="sankey Coverage Results" MODIFIED="1542905232130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bot$sankey_helper.coverage" NAME="sankey_helper Coverage Results" MODIFIED="1542864618249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bot$botps.coverage" NAME="botps Coverage Results" MODIFIED="1542873071707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -80,16 +80,16 @@
     <session id="-206555657">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -101,7 +101,7 @@
           <entry key="properties" value="133" />
           <entry key="py" value="6454" />
           <entry key="sankey_nodes_json" value="3" />
-          <entry key="txt" value="81" />
+          <entry key="txt" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -109,7 +109,7 @@
           <entry key="Ini" value="42" />
           <entry key="JSON" value="5" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="102" />
+          <entry key="PLAIN_TEXT" value="103" />
           <entry key="Properties" value="133" />
           <entry key="Python" value="6454" />
         </counts>
@@ -124,7 +124,7 @@
           <entry key="properties" value="4" />
           <entry key="py" value="20" />
           <entry key="sankey_nodes_json" value="2" />
-          <entry key="txt" value="125" />
+          <entry key="txt" value="126" />
           <entry key="vmoptions" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -135,7 +135,7 @@
           <entry key="Ini" value="3" />
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="130" />
+          <entry key="PLAIN_TEXT" value="131" />
           <entry key="Properties" value="4" />
           <entry key="Python" value="20" />
           <entry key="XML" value="1" />
@@ -148,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="75" column="71" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+            <state relative-caret-position="357">
+              <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -178,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subredds_at_large.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="863">
-              <caret line="92540" selection-start-line="92540" selection-end-line="92540" selection-end-column="8" />
+            <state relative-caret-position="474">
+              <caret line="176834" column="12" selection-start-line="176834" selection-start-column="12" selection-end-line="176834" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -187,21 +187,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subredds_is_it_nsfw.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1571344">
-              <caret line="92432" column="8" selection-start-line="92432" selection-end-line="92432" selection-end-column="8" />
+            <state relative-caret-position="447">
+              <caret line="176645" column="27" selection-start-line="176645" selection-start-column="27" selection-end-line="176645" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subredds_nsfw.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175918" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subredds_sfw.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1070507">
+            <state relative-caret-position="-1755575">
               <caret line="62971" selection-start-line="62971" selection-end-line="62971" selection-end-column="14" />
             </state>
           </provider>
@@ -276,6 +278,8 @@
         <option value="$PROJECT_DIR$/exit_tests.py" />
         <option value="$PROJECT_DIR$/4_S_IO_enSHENZHEN IO Manual (English).xml" />
         <option value="$PROJECT_DIR$/timestamps.txt" />
+        <option value="$PROJECT_DIR$/subredds_at_large.txt" />
+        <option value="$PROJECT_DIR$/subredds_is_it_nsfw.txt" />
         <option value="$PROJECT_DIR$/bot.py" />
       </list>
     </option>
@@ -401,6 +405,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -412,7 +417,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -602,12 +606,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -893,41 +897,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subredds_gold_restricted.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/subs.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/4_S_IO_enSHENZHEN IO Manual (English).xml" />
+    <entry file="file://$PROJECT_DIR$/subredds_at_large.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="176834" column="12" selection-start-line="176834" selection-start-column="12" selection-end-line="176834" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/subredds_is_it_nsfw.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1571344">
-          <caret line="92432" column="8" selection-start-line="92432" selection-end-line="92432" selection-end-column="8" />
+        <state relative-caret-position="447">
+          <caret line="176645" column="27" selection-start-line="176645" selection-start-column="27" selection-end-line="176645" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/subredds_nsfw.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175918" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/subredds_sfw.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1070507">
+        <state relative-caret-position="-1755575">
           <caret line="62971" selection-start-line="62971" selection-end-line="62971" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subredds_at_large.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="92540" selection-start-line="92540" selection-end-line="92540" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subredds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="441684" column="5" selection-start-line="441684" selection-start-column="5" selection-end-line="441684" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -938,10 +934,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/subredds.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="441684" column="5" selection-start-line="441684" selection-start-column="5" selection-end-line="441684" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subredds_gold_restricted.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="75" column="71" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+        <state relative-caret-position="357">
+          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
