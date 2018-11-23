@@ -19,4 +19,4 @@ time started: 2018-11-23 19:48:09.722734
 time to get list of subs: 2018-11-23 19:48:10.176522
 time subs are sorted: 2018-11-23 19:48:14.497974
 time started to get infos: 2018-11-23 19:48:14.501988
-time started: 2018-11-23 22:14:35.332270
+time stopped at 'Cringeawards': 2018-11-23 22:14:35.332270
