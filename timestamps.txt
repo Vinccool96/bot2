@@ -1,2 +1,7 @@
 start around 2018-11-23 02:54:34.640583
 stopped at 2018-11-23 04:59:34.640583
+time started: 2018-11-23 06:09:26.961668
+time to get list of subs: 2018-11-23 06:09:27.320709
+time subs are sorted: 2018-11-23 06:09:31.446695
+time started to get infos: 2018-11-23 06:09:31.450701
+time stopped at 'BargainHunter': 2018-11-23 06:23:29.000096

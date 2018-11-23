@@ -7,6 +7,8 @@ import requests
 import datetime
 
 time_started = datetime.datetime.utcnow()
+with open('timestamps.txt', 'a') as fil_timestamps:
+    fil_timestamps.write('time started: ' + str(time_started)+'\n')
 print('time started: ' + str(time_started))
 
 conf = configparser.ConfigParser()
@@ -34,6 +36,8 @@ r = client.get(f'https://www.reddit.com/api/v1/authorize?client_id={client_id}&r
                f'&state=RANDOM_STRING&redirect_uri={redirect_uri}&duration={duration}&scope={scope}.json')
 
 time_started_to_get_list_of_subs = datetime.datetime.utcnow()
+with open('timestamps.txt', 'a') as fil_timestamps:
+    fil_timestamps.write('time to get list of subs: ' + str(time_started_to_get_list_of_subs)+'\n')
 print('time to get list of subs: ' + str(time_started_to_get_list_of_subs))
 
 fil_subredds = open('subredds.txt', 'w', newline='\n')
@@ -60,12 +64,16 @@ for sub_sorted in list_subs_sorted:
 fil_subredds.close()
 
 time_subs_sorted = datetime.datetime.utcnow()
+with open('timestamps.txt', 'a') as fil_timestamps:
+    fil_timestamps.write('time subs are sorted: ' + str(time_subs_sorted)+'\n')
 print('time subs are sorted: ' + str(time_subs_sorted))
 
 time_started_to_get_infos = datetime.datetime.utcnow()
+with open('timestamps.txt', 'a') as fil_timestamps:
+    fil_timestamps.write('time started to get infos: ' + str(time_started_to_get_infos)+'\n')
 print('time started to get infos: ' + str(time_started_to_get_infos))
 
-for sub in list_subs_sorted:
+for sub in list_subs_sorted[list_subs_sorted.index('BargainHunter')+1:]:
     res = client.get(f'https://www.reddit.com/r/{sub}/about/.json')
     rep = json.loads(res.text)
     if rep.keys().__contains__('error') or rep.keys().__contains__('reason'):
@@ -87,11 +95,6 @@ for sub in list_subs_sorted:
                 fil_subredds_gold_restricted.write(sub+'\n')
 
 time_ended = datetime.datetime.utcnow()
-print('time ended: ' + str(time_ended))
-
-with open('timestamps.txt', 'w') as fil_timestamps:
-    fil_timestamps.write('time started: ' + str(time_started) + '\n')
-    fil_timestamps.write('time to get list of subs: ' + str(time_started_to_get_list_of_subs) + '\n')
-    fil_timestamps.write('time subs are sorted: ' + str(time_subs_sorted) + '\n')
-    fil_timestamps.write('time started to get infos: ' + str(time_started_to_get_infos) + '\n')
+with open('timestamps.txt', 'a') as fil_timestamps:
     fil_timestamps.write('time ended: ' + str(time_ended) + '\n')
+print('time ended: ' + str(time_ended))
