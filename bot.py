@@ -73,7 +73,7 @@ with open('timestamps.txt', 'a') as fil_timestamps:
     fil_timestamps.write('time started to get infos: ' + str(time_started_to_get_infos)+'\n')
 print('time started to get infos: ' + str(time_started_to_get_infos))
 
-for sub in list_subs_sorted[list_subs_sorted.index('BargainHunter')+1:]:
+for sub in list_subs_sorted[list_subs_sorted.index('BooksThatEndTooSoon')+1:]:
     res = client.get(f'https://www.reddit.com/r/{sub}/about/.json')
     rep = json.loads(res.text)
     if rep.keys().__contains__('error') or rep.keys().__contains__('reason'):
