@@ -29,4 +29,4 @@ time started: 2018-11-27 18:27:18.290926
 time to get list of subs: 2018-11-27 18:27:18.719159
 time subs are sorted: 2018-11-27 18:27:22.759695
 time started to get infos: 2018-11-27 18:27:22.766801
-time stopped at 'DOTATRENCHLORDS': 2018-11-26 15:15:50.265981
+time stopped at 'DOTATRENCHLORDS': around 2018-11-26 19:44

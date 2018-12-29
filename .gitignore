@@ -58,3 +58,4 @@ posts_replied_to.txt
 MILBitchBot2/praw.ini
 praw.ini
 subreddits.json
+comments.py

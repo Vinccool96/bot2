@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fab6449a-2a3d-4d77-b1ff-c556a634b5d3" name="Default Changelist" comment="cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subredds_at_large.txt" beforeDir="false" afterPath="$PROJECT_DIR$/subredds_at_large.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subredds_is_it_nsfw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/subredds_is_it_nsfw.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subredds_nsfw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/subredds_nsfw.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subredds_public.txt" beforeDir="false" afterPath="$PROJECT_DIR$/subredds_public.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subredds_sfw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/subredds_sfw.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timestamps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/timestamps.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,17 +74,18 @@
     <session id="-206555657">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -102,7 +97,7 @@
           <entry key="properties" value="133" />
           <entry key="py" value="6454" />
           <entry key="sankey_nodes_json" value="3" />
-          <entry key="txt" value="118" />
+          <entry key="txt" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -110,7 +105,7 @@
           <entry key="Ini" value="42" />
           <entry key="JSON" value="5" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="139" />
+          <entry key="PLAIN_TEXT" value="150" />
           <entry key="Properties" value="133" />
           <entry key="Python" value="6454" />
         </counts>
@@ -119,11 +114,11 @@
         <counts>
           <entry key="csv" value="9" />
           <entry key="exemple_sankey_json" value="1" />
-          <entry key="ini" value="3" />
+          <entry key="ini" value="4" />
           <entry key="json" value="2" />
           <entry key="md" value="2" />
           <entry key="properties" value="4" />
-          <entry key="py" value="20" />
+          <entry key="py" value="25" />
           <entry key="sankey_nodes_json" value="2" />
           <entry key="txt" value="126" />
           <entry key="vmoptions" value="1" />
@@ -133,12 +128,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="8" />
-          <entry key="Ini" value="3" />
+          <entry key="Ini" value="4" />
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="131" />
           <entry key="Properties" value="4" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="25" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -146,18 +141,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="75" column="67" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subredds.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -167,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/timestamps.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="48" />
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -179,7 +162,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subredds_at_large.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193226">
+            <state relative-caret-position="3006178">
               <caret line="176834" column="12" selection-start-line="176834" selection-start-column="12" selection-end-line="176834" selection-end-column="12" />
             </state>
           </provider>
@@ -188,7 +171,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subredds_is_it_nsfw.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193032">
+            <state relative-caret-position="3002965">
               <caret line="176645" column="27" selection-start-line="176645" selection-start-column="27" selection-end-line="176645" selection-end-column="27" />
             </state>
           </provider>
@@ -200,12 +183,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/subredds_sfw.txt">
+        <entry file="file://$PROJECT_DIR$/exit_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1935573">
-              <caret line="62971" selection-start-line="62971" selection-end-line="62971" selection-end-column="14" />
+            <state>
+              <caret selection-end-line="46" selection-end-column="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/praw.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="20" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/combinations.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -290,7 +299,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -420,7 +429,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bot" />
+    <property name="last_opened_file_path" value="C:/Jeux/LR1/Lab_Rats-1.0-all/Lab_Rats-1.0-all" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -603,14 +612,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -665,7 +673,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/links_list.txt" />
     <entry file="file://$PROJECT_DIR$/sankey_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -779,13 +786,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subs_public.txt" />
     <entry file="file://$PROJECT_DIR$/vals.txt" />
-    <entry file="file://$PROJECT_DIR$/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vals_source.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -828,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/praw.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sankey_nodes.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
@@ -854,13 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/botps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -889,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exit_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/subs.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -903,29 +882,36 @@
     <entry file="file://$PROJECT_DIR$/subredds_gold_restricted.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/subredds_nsfw.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subredds_is_it_nsfw.txt">
+    <entry file="file://$PROJECT_DIR$/subredds_sfw.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193032">
-          <caret line="176645" column="27" selection-start-line="176645" selection-start-column="27" selection-end-line="176645" selection-end-column="27" />
+        <state relative-caret-position="1070507">
+          <caret line="62971" selection-start-line="62971" selection-end-line="62971" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subredds_sfw.txt">
+    <entry file="file://$PROJECT_DIR$/timestamps.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1935573">
-          <caret line="62971" selection-start-line="62971" selection-end-line="62971" selection-end-column="14" />
+        <state relative-caret-position="527">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/subredds_at_large.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193226">
+        <state relative-caret-position="3006178">
           <caret line="176834" column="12" selection-start-line="176834" selection-start-column="12" selection-end-line="176834" selection-end-column="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subredds_is_it_nsfw.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3002965">
+          <caret line="176645" column="27" selection-start-line="176645" selection-start-column="27" selection-end-line="176645" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combinations.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/subredds.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -934,20 +920,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot.py">
+    <entry file="file://$PROJECT_DIR$/botps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="75" column="67" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
+        <state relative-caret-position="330">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4396">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timestamps.txt">
+    <entry file="file://$PROJECT_DIR$/praw.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="48" />
+        <state relative-caret-position="510">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exit_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subredds_nsfw.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
